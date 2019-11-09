@@ -1,0 +1,113 @@
+
+body.kc-style {
+    background: #F6F6F6;
+}
+.input-wrapper input {
+    border: 1px solid #C6C6C6;
+    border-radius: 20px;
+    padding: 8px 20px 8px 40px;
+}
+
+.login-wrapper {
+    width: 100%;
+    max-width: 400px;
+    margin: 20vh auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo-wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+}
+
+.input-wrapper {
+    margin-top: 14px;
+    position: relative;
+}
+
+.input-wrapper::after {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.input-wrapper.username::after {
+    background-image: url('../images/user.svg');
+}
+
+.input-wrapper.password::after {
+    background-image: url('../images/password.svg');
+}
+
+.kc-style .btn-orange {
+    background-color: #EC8D3C;
+    border-radius: 20px;
+    color: white;
+    width: 100%;
+    padding: 6px 20px;
+}
+
+.page-num {
+    padding: 4px 4px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.page-num.active {
+    border-bottom: 2px solid orange;
+}
+
+.pagination-wrapper div {
+    display: inline-block;
+}
+
+.pagination-prev,
+.pagination-next {
+    padding: 4px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.users-heading {
+    border-bottom: 10px solid orange;
+    margin-top: 1em;
+    padding: 20px
+}
+
+.users-list {
+    background: white;
+}
+
+.users-list .item {
+    padding: 10px 30px;
+}
+
+.users-list .item:nth-child(2n) {
+    background: #f7f7f7;
+}
+
+.users-list .item .name {
+    display: inline-block;
+    width: 50%;
+}
+
+.footer {
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    background: white;
+}

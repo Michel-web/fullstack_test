@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/login.js"></script>
+</head>
+<body>
+    <div class="main-wrapper kc-style">
+        <form class="login-wrapper" method="post" id="login-form" >
+            <div class="logo-wrapper">
+                <img src="./assets/images/Logo.svg" >
+            </div>
+            <strong class="mt-5 d-block">Welcome to the Learning Management System</strong>
+            <span>Please login to continue</span>
+            <br>
+            <div class="input-wrapper username mt-4">
+                <input class="form-control" id="username" type="text" placeholder="Username" name="username" required />
+            </div>
+            <div class="input-wrapper password">
+                <input class="form-control" id="password" type="password" placeholder="Password" name="password" required />
+            </div>
+            <div class="input-wrapper">
+                <input type="checkbox" name="remember" id="remember" />
+                <label for="remember" >Remember me</label>
+            </div>
+            <div class="submit-wrapper mt-4">
+                <button class="submit btn btn-orange d-block text-left" type="submit">Log In</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
